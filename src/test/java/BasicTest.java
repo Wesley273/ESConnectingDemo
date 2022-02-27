@@ -7,7 +7,7 @@ import org.elasticsearch.client.RestClient;
 
 import java.io.IOException;
 
-public class Connect {
+public class BasicTest {
     public static void main(String[] Args) {
         // Create the low-level client
         RestClient restClient = RestClient.builder(
